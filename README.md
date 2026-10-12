@@ -1,232 +1,293 @@
+
 <h1 align="center">PyPhisher</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-2.1.9-green?style=for-the-badge">
-  <img src="https://img.shields.io/gitlab/stars/KasRoudra/PyPhisher?style=for-the-badge&color=orange">
-  <img src="https://img.shields.io/gitlab/forks/KasRoudra/PyPhisher?color=cyan&style=for-the-badge&color=purple">
-  <img src="https://img.shields.io/gitlab/watchers/KasRoudra/PyPhisher?color=cyan&style=for-the-badge&color=purple">
-  <img src="https://img.shields.io/gitlab/issues/KasRoudra/PyPhisher?color=red&style=for-the-badge">
-  <img src="https://img.shields.io/gitlab/license/KasRoudra/PyPhisher?style=for-the-badge&color=blue">
-  <img src="https://hits.dwyl.com/KasRoudra/PyPhisher.svg" width="140" height="28">
-<br>
-<br>
-  <img src="https://img.shields.io/badge/Author-KasRoudra-purple?style=flat-square">
-  <img src="https://img.shields.io/badge/Open%20Source-Yes-cyan?style=flat-square">
-  <img src="https://img.shields.io/badge/Made%20in-Bangladesh-green?colorA=%23ff0000&colorB=%23017e40&style=flat-square">
-  <img src="https://img.shields.io/badge/Written%20In-Python-blue?style=flat-square">
+  <img src="https://img.shields.io/badge/Versão-2.1.9-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Linguagem-Python-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Finalidade-Educacional-orange?style=for-the-badge">
 </p>
 
+<p align="center">
+  <a href="https://gitlab.com/KasRoudra">
+    <img src="https://img.shields.io/badge/Autor-KasRoudra-purple?style=flat-square">
+  </a>
+  <img src="https://img.shields.io/badge/Código_Aberto-Sim-cyan?style=flat-square">
+  <img src="https://img.shields.io/badge/Origem-Bangladesh-green?style=flat-square">
+</p>
 
-### [√] Description :
+---
 
-***Ultimate phishing tool in python. Includes popular websites like facebook, twitter, instagram, github, reddit, gmail and many others.***
+## 📚 1. Descrição
 
-### [*]Announcement
+O **PyPhisher** é uma ferramenta de código aberto desenvolvida em Python para demonstrar o funcionamento de técnicas de phishing e engenharia social.
 
-This project is now a part of [MaxPhisher](https://gitlab.com/KasRoudra/MaxPhisher). Further bug fixes and feature addition will be available in that
+O projeto apresenta recursos relacionados a páginas de autenticação, servidores web, tunelamento de conexões e análise de mecanismos de captura de informações.
 
+**Este repositório destina-se exclusivamente a fins estudantis, pesquisas acadêmicas, auditorias autorizadas e atividades educacionais de Segurança da Informação.**
 
-### [+] Installation
+Seu principal objetivo é contribuir para a compreensão das ameaças digitais e o desenvolvimento de estratégias de prevenção e proteção.
 
-##### Install dependencies (git, python, php ssh)
+### Continuidade do projeto
 
- - For Debian (Ubuntu, Kali-Linux, Parrot)
-    - ```sudo apt install git python3 python3-pip php openssh-client -y```
- - For Arch (Manjaro)
-    - ```sudo pacman -S git python3 python-pip php openssh --noconfirm```
- - For Redhat(Fedora)
-    - ```sudo dnf install git python3 php openssh -y```
- - For Termux
-    - ```pkg install git python3 python-pip php openssh -y```
+O desenvolvedor original informou que o PyPhisher passou a integrar o projeto [MaxPhisher](https://gitlab.com/KasRoudra/MaxPhisher), no qual seriam disponibilizadas novas funcionalidades e correções.
 
-##### Clone this repository
+---
 
- - ```git clone https://gitlab.com/KasRoudra/PyPhisher```
+## 🎯 2. Objetivos educacionais
 
-##### Enter the directory
- - ```cd PyPhisher```
+- Compreender o funcionamento de ataques de phishing.
+- Identificar páginas falsas e tentativas de engenharia social.
+- Analisar códigos Python, PHP, HTML e JavaScript.
+- Estudar mecanismos de autenticação e proteção de credenciais.
+- Compreender o funcionamento de servidores web e túneis de rede.
+- Identificar riscos associados à exposição de informações pessoais.
+- Desenvolver estratégias de defesa contra fraudes digitais.
+- Aplicar conhecimentos de Redes de Computadores e Cibersegurança.
 
-##### Install all modules
- - ```pip3 install -r files/requirements.txt --break-system-packages```
+---
 
-##### Run the tool
- - ```python3 pyphisher.py```
+## ⚙️ 3. Características do projeto
 
-#### Or, directly run
+Entre os recursos descritos pelo desenvolvedor original estão:
+
+- Compatibilidade com diferentes distribuições Linux.
+- Interface de execução pelo terminal.
+- Biblioteca de modelos de páginas web.
+- Suporte a parâmetros de execução.
+- Recursos de tunelamento.
+- Simulações de páginas de autenticação.
+- Suporte a modelos de autenticação OTP.
+- Configurações de redirecionamento.
+- Recursos de manipulação e pré-visualização de URLs.
+- Registro de informações de acesso.
+- Recursos de análise de erros.
+- Disponibilização por Git, Python e Docker.
+
+**Atenção:** essas funcionalidades devem ser estudadas exclusivamente em ambientes controlados e autorizados.
+
+---
+
+## 💻 4. Requisitos técnicos
+
+### Linguagem principal
+
+- Python 3
+
+### Bibliotecas Python
+
+- requests
+- rich
+- beautifulsoup4
+
+### Outros componentes
+
+- Git
+- PHP
+- SSH
+- Ambiente Linux ou máquina virtual
+- Aproximadamente 900 MB de armazenamento, conforme a documentação original
+
+### Sistemas operacionais
+
+| Sistema | Compatibilidade informada |
+|---|---|
+| Linux | Excelente |
+| Android / Termux | Excelente |
+| macOS | Experimental |
+| iOS | Experimental |
+| Windows | Por máquina virtual ou Docker |
+| BSD | Não testado |
+
+As informações de compatibilidade foram baseadas na documentação original.
+
+---
+
+## 🛠️ 5. Obtenção do código-fonte
+
+O projeto original está disponível em:
+
+https://gitlab.com/KasRoudra/PyPhisher
+
+### Debian, Ubuntu e Kali Linux
+
+Instalação das ferramentas básicas para inspeção:
+
+```bash
+sudo apt update
+sudo apt install git python3 python3-pip php openssh-client -y
 ```
-wget https://gitlab.com/KasRoudra/PyPhisher/-/raw/main/pyphisher.py && python3 pyphisher.py
 
+### Clonar o repositório
+
+```bash
+git clone https://gitlab.com/KasRoudra/PyPhisher.git
 ```
 
-### Pip
- - `pip3 install pyphisher` [For Termux]
- - `sudo pip3 install pyphisher  --break-system-packages` [For Linux]
- - `pyphisher`
+### Acessar a pasta
 
-### Docker
-
- - `sudo docker pull kasroudra/pyphisher`
- - `sudo docker run --rm -it kasroudra/pyphisher`
-
-### Support
-
-OS         | Support Level
------------|--------------
-Linux      | Excellent
-Android    | Excellent
-iPhone     | Alpha
-MacOS      | Alpha (Recommended docker)
-Windows    | Unsupported (Use docker/virtual-box/vmware)
-BSD        | Never tested
-
-#### Options
-
-```
-usage: pyphisher.py [-h] [-p PORT] [-o OPTION] [-t TUNNELER]
-                    [-r REGION] [-s SUBDOMAIN] [-u URL] [-m MODE]
-                    [-e TROUBLESHOOT] [--nokey] [--noupdate]
-
-options:
-  -h, --help            show this help message and exit
-  -p PORT, --port PORT  PyPhisher's server port [Default : 8080]
-  -o OPTION, --option OPTION
-                        PyPhisher's template index [Default : null]
-  -t TUNNELER, --tunneler TUNNELER
-                        Tunneler to be chosen while url shortening
-                        [Default : Cloudflared]
-  -r REGION, --region REGION
-                        Region for loclx [Default: auto]
-  -s SUBDOMAIN, --subdomain SUBDOMAIN
-                        Subdomain for loclx [Pro Account]
-                        (Default: null)
-  -u URL, --url URL     Redirection url after data capture [Default :
-                        null]
-  -m MODE, --mode MODE  Mode of PyPhisher [Default: normal]
-  -e TROUBLESHOOT, --troubleshoot TROUBLESHOOT
-                        Troubleshoot a tunneler [Default: null]
-  --nokey               Use localtunnel without ssh key [Default:
-                        False]
-  --noupdate            Skip update checking [Default : False]
+```bash
+cd PyPhisher
 ```
 
-### Features:
+### Examinar os arquivos
 
- - Multi platform (Supports most linux)
- - Easy to use
- - Possible error diagnoser
- - 77 Website templates
- - Concurrent 4 tunneling (Cloudflared, Loclx and LocalHostRun, Serveo)
- - Upto 8 links for phishing
- - OTP Support
- - Argument support
- - Credentials mailing
- - Built-in masking of URL
- - Custom masking of URL
- - URL Shadowing
- - Redirection URL settings
- - Portable file (Can be run from any directory)
- - Get IP Address and many other details along with login credentials
+```bash
+ls -la
+```
 
-#### Relevant Tools by Me
- - [CamHacker](https://gitlab.com/KasRoudra/CamHacker) for image phishing
- - [VidPhisher](https://gitlab.com/KasRoudra/VidPhisher) for video phishing
+### Consultar as dependências
 
+```bash
+cat files/requirements.txt
+```
 
-### Requirements
+### Verificar a sintaxe do arquivo Python sem executá-lo
 
- - `Python(3)`
-   - `requests`
-   - `rich`
-   - `beautifulsoup4`
- - `PHP`
- - `SSH`
- - 900MB storage
- 
-If not found, php and python modoules will be installed on first run
+```bash
+python3 - <<'PY'
+import ast
+from pathlib import Path
 
-#### Tested on
+arquivo = Path("pyphisher.py")
+ast.parse(arquivo.read_text(encoding="utf-8"))
+print("Análise sintática concluída.")
+PY
+```
 
- - `Termux`
- - `Ubuntu`
- - `Kali-Linux`
- - `Arch`
- - `Fedora`
- - `Manjaro`
+**Recomendação:** antes de instalar dependências ou executar o programa, realize uma análise estática dos arquivos e dos componentes externos.
 
-## Usage
+---
 
-1. Run the script
-2. Choose a Website
-3. Wait sometimes for setting up all
-4. Send the generated link to victim
-5. Wait for victim login. As soon as he/she logs in, credentials will be captured
+## 🔐 6. Ambiente de laboratório
 
-<h1 align="center">Example</h1>
+Para atividades acadêmicas, recomenda-se:
 
-![PyPhisher](https://gitlab.com/KasRoudra/PyPhisher/-/raw/main/files/pyphisher.gif)
+1. Utilizar máquinas virtuais isoladas.
+2. Trabalhar com páginas demonstrativas próprias.
+3. Utilizar exclusivamente usuários e senhas fictícios.
+4. Evitar exposição dos serviços à internet pública.
+5. Não utilizar contas reais de terceiros.
+6. Registrar as autorizações necessárias.
+7. Analisar o tráfego de rede em ambiente controlado.
+8. Remover os dados de teste após as atividades.
 
-## Video Tutorial
-<a href="https://rebrand.ly/pyphishervideo">PyPhisher in Termux</a>
-<br/>
-<a href="https://youtu.be/xIEuJkmJ8F0">PyPhisher in Kali Linux by InfoSecPat</a>
-<br/>
-<a href="https://youtu.be/ueF6fNHD8MM">PyPhisher in Kali Linux by Sathvik</a>
+---
 
-## Whats new in 1.8?
- - *Mailing*
-   - Now you can send credentials to any email. You just need a gmail and app password to use this feature. Edit the data in `files/email.json`
- - *Custom Preview*
-   - Now you can set a custom social media preview of your link. Enter a website url when asked in `shadow url`. Your link will have same appearence as that website in whatsapp/messenger/telegram etc. Note this only works with Cloudflared urls
- - *OTP Support*
-   - 20 templates will show an option to enable otp pages
- - *Saved*
-   - An option to view all saved credentials just from PyPhisher. This credentials won't get deleted in PyPhisher update
+## 🧪 7. Aplicações educacionais
 
-## Whats new in 1.9?
- - *Loclx*
-   - Introducing a new port forwarding/tunneling service named localxpose or loclx. It is quite slower but still usable
- - *Docker image*
-   - A docker image is published which can be pulled and run
- - *PIP*
-   - This project is now also available in PIP
+### Redes de Computadores
 
-## Whats new in 2.0?
- - *LocalHostRun*
-   - Introducing a new port forwarding/tunneling service named localhost.run. It works over ssh without binaries
- - *Redirection url*
-   - Users can decide where the victim will be redirected after data is captured
+Estudo de protocolos HTTP/HTTPS, endereçamento IP, portas, servidores web e tunelamento.
 
-## Solution of common issues
- - Some secured browsers like Firefox can warn for '@' prefixed links. You should use pure links or custom link to avoid it.
- - Termux from play store in not supported. Download termux from fdroid or github
- - VPN or proxy prevents tunneling and even proper internet access. Turn them off you have issues.
- - Some android requires hotspot to start Cloudflared and Loclx. If you face 'tunneling failed' in android, most probably your hotspot is turned off. Turn it on and keep it on untill you close PyPhisher.
- - If you want mailing credentials then you need to use app password. Visit [here](https://myaccount.google.com/u/0/apppasswords) and generate an app password, put that in `files/email.json`. You may need to enable 2FA before it.
- 
-## [!] Disclaimer
-***This tool is developed for educational purposes. Here it demonstrates how phishing works. If anybody wants to gain unauthorized access to someones social media, he/she may try out this at his/her own risk. You have your own responsibilities and you are liable to any damage or violation of laws by this tool. The author is not responsible for any misuse of PyPhisher!***
+### Segurança da Informação
 
-### This repository is open source to help others. So if you wish to copy, consider giving credit!
+Estudo de autenticação, proteção de credenciais, engenharia social e prevenção de fraudes.
 
-## Credits:
-Some base codes and templates are from [htr-tech](https://github.com/htr-tech/zphisher), otp templates are from [ignitech](https://github.com/ignitech/AdvPhishing) and url masking is inspired from [jaykali](https://github.com/jaykali/maskphish)
+### Programação
 
+Análise e interpretação de códigos Python, PHP, HTML e JavaScript.
 
-### [*] Support
-####  Want to show support? Just spread the word and smash the star button
-###### Donate BTC: ***3Lx8ikQQgZZpmFJzHDBuQHXzLXMeWMcZF3***
+### Cibersegurança
 
-## [~] Find Me on :
+Análise estática de software, identificação de comportamentos suspeitos e investigação de páginas fraudulentas.
 
-- [![Github](https://img.shields.io/badge/Github-KasRoudra-purple?style=for-the-badge&logo=github)](https://github.com/KasRoudra)
+---
 
-- [![Gitlab](https://img.shields.io/badge/Gitlab-KasRoudra-purple?style=for-the-badge&logo=gitlab)](https://gitlab.com/KasRoudra)
+## ⚖️ 8. Legislação brasileira aplicável
 
-- [![Gmail](https://img.shields.io/badge/Gmail-KasRoudra-green?style=for-the-badge&logo=gmail)](mailto:kasroudrakrd@gmail.com)
+### Lei nº 12.737/2012 — Lei Carolina Dieckmann
 
-- [![Facebook](https://img.shields.io/badge/Facebook-KasRoudra-blue?style=for-the-badge&logo=facebook)](https://facebook.com/KasRoudra)
+Introduziu dispositivos no Código Penal relacionados a delitos informáticos, incluindo o artigo 154-A.
 
-- [![Messenger](https://img.shields.io/badge/Messenger-KasRoudra-orange?style=for-the-badge&logo=messenger)](https://m.me/KasRoudra)
+**Fonte oficial:**
 
-- [![Telegram](https://img.shields.io/badge/Telegram-KasRoudra-indigo?style=for-the-badge&logo=telegram)](https://t.me/KasRoudra)
+https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12737.htm
 
+### Lei nº 14.155/2021
+
+Alterou dispositivos do Código Penal relacionados à invasão de dispositivo informático, furto e estelionato, incluindo situações envolvendo meios eletrônicos.
+
+**Fonte oficial:**
+
+https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14155.htm
+
+### Lei nº 13.709/2018 — Lei Geral de Proteção de Dados Pessoais (LGPD)
+
+Estabelece regras para o tratamento de dados pessoais, incluindo princípios de segurança, privacidade e proteção de informações.
+
+**Fonte oficial:**
+
+https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm
+
+### Decreto-Lei nº 2.848/1940 — Código Penal Brasileiro
+
+Destacam-se:
+
+- **Artigo 154-A:** invasão de dispositivo informático.
+- **Artigo 171:** estelionato, incluindo disposições relacionadas à fraude eletrônica.
+
+**Fonte oficial:**
+
+https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm
+
+**Importante:** a finalidade educacional não autoriza automaticamente o acesso a sistemas, a coleta de credenciais ou o tratamento de dados pessoais.
+
+---
+
+## 📋 9. Termo de responsabilidade e uso ético
+
+A utilização deste projeto deve respeitar os seguintes princípios:
+
+1. **Autorização:** realizar testes somente em sistemas próprios ou expressamente autorizados.
+2. **Privacidade:** respeitar os direitos e a proteção de dados pessoais.
+3. **Legalidade:** cumprir a legislação brasileira e as normas institucionais.
+4. **Ética:** não utilizar a ferramenta para fraudes ou obtenção indevida de informações.
+5. **Segurança:** manter as atividades restritas a ambientes controlados.
+6. **Responsabilidade:** documentar os procedimentos e prevenir impactos sobre terceiros.
+
+É proibida, no contexto educacional desta adaptação, a utilização para roubo de senhas, invasões, falsificação de identidade ou qualquer outra atividade ilícita.
+
+---
+
+## 👨‍💻 10. Créditos e reconhecimento
+
+### Desenvolvedor original
+
+**KasRoudra**
+
+- **GitLab:** https://gitlab.com/KasRoudra
+- **GitHub:** https://github.com/KasRoudra
+- **PyPhisher:** https://gitlab.com/KasRoudra/PyPhisher
+- **MaxPhisher:** https://gitlab.com/KasRoudra/MaxPhisher
+
+### Reconhecimento de autoria
+
+Todos os direitos autorais e créditos de desenvolvimento pertencem aos respectivos autores.
+
+Esta adaptação possui finalidade exclusivamente acadêmica e educacional, não reivindicando autoria sobre o código-fonte original.
+
+As modificações e redistribuições devem respeitar a licença original e preservar os avisos de direitos autorais aplicáveis.
+
+---
+
+## ⚠️ 11. Aviso legal
+
+**ESTE REPOSITÓRIO É DESTINADO EXCLUSIVAMENTE A FINS EDUCACIONAIS E DE PESQUISA EM SEGURANÇA DA INFORMAÇÃO.**
+
+O material tem como finalidade contribuir para o estudo de ameaças digitais, identificação de vulnerabilidades e desenvolvimento de estratégias de defesa cibernética.
+
+A disponibilização do código não representa autorização para invasões, fraudes eletrônicas, captura indevida de credenciais, violação de privacidade ou outras atividades ilícitas.
+
+A responsabilidade pela utilização do software cabe a quem realiza os respectivos atos, conforme a legislação aplicável.
+
+O mantenedor desta adaptação não reivindica a autoria do projeto original nem declara vínculo com seu desenvolvedor.
+
+---
+
+<p align="center">
+  <strong>Segurança da Informação • Redes de Computadores • Cibersegurança • Educação Digital</strong>
+</p>
+
+<p align="center">
+  <em>Conhecer as ameaças digitais é essencial para desenvolver estratégias de prevenção e proteção.</em>
+</p>
