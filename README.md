@@ -120,7 +120,7 @@ sudo apt install git python3 python3-pip php openssh-client -y
 ### Clonar o repositório
 
 ```bash
-git clone https://gitlab.com/KasRoudra/PyPhisher.git
+git clone https://github.com/profjvidal/PyPhisher.git
 ```
 
 ### Acessar a pasta
