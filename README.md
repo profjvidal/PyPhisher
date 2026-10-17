@@ -190,7 +190,7 @@ python3 pyphisher.py
 A documentação original também apresenta uma alternativa que combina download e execução imediata. Para permitir a revisão do arquivo, faça o download separadamente:
 
 ```bash
-wget https://gitlab.com/KasRoudra/PyPhisher/-/raw/main/pyphisher.py
+wget https://gitlab.com/profjvidal/PyPhisher/-/raw/main/pyphisher.py
 ```
 
 Inspecione o arquivo antes de qualquer execução:
