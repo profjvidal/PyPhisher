@@ -1,5 +1,4 @@
-
-<h1 align="center">PyPhisher</h1>
+# <p align="center">PyPhisher</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Versão-2.1.9-green?style=for-the-badge">
@@ -25,7 +24,14 @@ O projeto apresenta recursos relacionados a páginas de autenticação, servidor
 
 **Este repositório destina-se exclusivamente a fins estudantis, pesquisas acadêmicas, auditorias autorizadas e atividades educacionais de Segurança da Informação.**
 
-Seu principal objetivo é contribuir para a compreensão das ameaças digitais e o desenvolvimento de estratégias de prevenção e proteção.
+Seu principal objetivo educacional é contribuir para a compreensão das ameaças digitais e o desenvolvimento de estratégias de prevenção e proteção.
+
+> [!IMPORTANT]
+> **USO EXCLUSIVAMENTE EDUCACIONAL**
+>
+> O estudo do projeto deve ocorrer em ambientes controlados e autorizados.
+>
+> A utilização de páginas fraudulentas para obter credenciais ou informações pessoais sem autorização pode constituir atividade ilícita.
 
 ### Continuidade do projeto
 
@@ -43,6 +49,7 @@ O desenvolvedor original informou que o PyPhisher passou a integrar o projeto [M
 - Identificar riscos associados à exposição de informações pessoais.
 - Desenvolver estratégias de defesa contra fraudes digitais.
 - Aplicar conhecimentos de Redes de Computadores e Cibersegurança.
+- Incentivar o uso ético e responsável de ferramentas de segurança.
 
 ---
 
@@ -63,7 +70,8 @@ Entre os recursos descritos pelo desenvolvedor original estão:
 - Recursos de análise de erros.
 - Disponibilização por Git, Python e Docker.
 
-**Atenção:** essas funcionalidades devem ser estudadas exclusivamente em ambientes controlados e autorizados.
+> [!WARNING]
+> Essas funcionalidades devem ser estudadas exclusivamente em ambientes controlados e autorizados. Não utilize páginas simuladas para coletar credenciais reais ou enganar terceiros.
 
 ---
 
@@ -75,9 +83,9 @@ Entre os recursos descritos pelo desenvolvedor original estão:
 
 ### Bibliotecas Python
 
-- requests
-- rich
-- beautifulsoup4
+- `requests`
+- `rich`
+- `beautifulsoup4`
 
 ### Outros componentes
 
@@ -98,196 +106,73 @@ Entre os recursos descritos pelo desenvolvedor original estão:
 | Windows | Por máquina virtual ou Docker |
 | BSD | Não testado |
 
-As informações de compatibilidade foram baseadas na documentação original.
+As informações de compatibilidade foram baseadas na documentação original e podem variar conforme a versão do projeto.
 
 ---
 
-## 🛠️ 5. Obtenção do código-fonte
+## 🛠️ 5. Instalação e preparação do ambiente
 
-O projeto original está disponível em:
+O PyPhisher foi desenvolvido em Python e possui suporte documentado para diferentes distribuições GNU/Linux e ambientes Termux.
 
-https://gitlab.com/KasRoudra/PyPhisher
+### 5.1. Instalação das dependências
 
-### Debian, Ubuntu e Kali Linux
+Instale os componentes necessários conforme o sistema operacional utilizado.
 
-Instalação das ferramentas básicas para inspeção:
+#### 🐧 Debian, Ubuntu, Kali Linux e Parrot OS
 
 ```bash
 sudo apt update
 sudo apt install git python3 python3-pip php openssh-client -y
 ```
 
-### Clonar o repositório
+#### 🐧 Arch Linux e Manjaro
+
+```bash
+sudo pacman -S git python python-pip php openssh --noconfirm
+```
+
+#### 🐧 Fedora e distribuições baseadas em Red Hat
+
+```bash
+sudo dnf install git python3 python3-pip php openssh-clients -y
+```
+
+#### 📱 Android — Termux
+
+```bash
+pkg update && pkg upgrade -y
+pkg install git python php openssh -y
+```
+
+> [!NOTE]
+> Os nomes dos pacotes podem variar conforme a distribuição Linux e a versão do sistema operacional.
+
+### 5.2. Clonagem do repositório
+
+**Repositório original:**
+
+```bash
+git clone https://gitlab.com/KasRoudra/PyPhisher.git
+```
+
+**Repositório de referência da adaptação:**
 
 ```bash
 git clone https://github.com/profjvidal/PyPhisher.git
 ```
 
-### Acessar a pasta
+Escolha apenas um dos repositórios.
+
+### 5.3. Acessar o diretório
 
 ```bash
 cd PyPhisher
 ```
 
-### Examinar os arquivos
+### 5.4. Examinar os arquivos
 
 ```bash
 ls -la
 ```
 
-### Consultar as dependências
-
-```bash
-cat files/requirements.txt
-```
-
-### Verificar a sintaxe do arquivo Python sem executá-lo
-
-```bash
-python3 - <<'PY'
-import ast
-from pathlib import Path
-
-arquivo = Path("pyphisher.py")
-ast.parse(arquivo.read_text(encoding="utf-8"))
-print("Análise sintática concluída.")
-PY
-```
-
-**Recomendação:** antes de instalar dependências ou executar o programa, realize uma análise estática dos arquivos e dos componentes externos.
-
----
-
-## 🔐 6. Ambiente de laboratório
-
-Para atividades acadêmicas, recomenda-se:
-
-1. Utilizar máquinas virtuais isoladas.
-2. Trabalhar com páginas demonstrativas próprias.
-3. Utilizar exclusivamente usuários e senhas fictícios.
-4. Evitar exposição dos serviços à internet pública.
-5. Não utilizar contas reais de terceiros.
-6. Registrar as autorizações necessárias.
-7. Analisar o tráfego de rede em ambiente controlado.
-8. Remover os dados de teste após as atividades.
-
----
-
-## 🧪 7. Aplicações educacionais
-
-### Redes de Computadores
-
-Estudo de protocolos HTTP/HTTPS, endereçamento IP, portas, servidores web e tunelamento.
-
-### Segurança da Informação
-
-Estudo de autenticação, proteção de credenciais, engenharia social e prevenção de fraudes.
-
-### Programação
-
-Análise e interpretação de códigos Python, PHP, HTML e JavaScript.
-
-### Cibersegurança
-
-Análise estática de software, identificação de comportamentos suspeitos e investigação de páginas fraudulentas.
-
----
-
-## ⚖️ 8. Legislação brasileira aplicável
-
-### Lei nº 12.737/2012 — Lei Carolina Dieckmann
-
-Introduziu dispositivos no Código Penal relacionados a delitos informáticos, incluindo o artigo 154-A.
-
-**Fonte oficial:**
-
-https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12737.htm
-
-### Lei nº 14.155/2021
-
-Alterou dispositivos do Código Penal relacionados à invasão de dispositivo informático, furto e estelionato, incluindo situações envolvendo meios eletrônicos.
-
-**Fonte oficial:**
-
-https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14155.htm
-
-### Lei nº 13.709/2018 — Lei Geral de Proteção de Dados Pessoais (LGPD)
-
-Estabelece regras para o tratamento de dados pessoais, incluindo princípios de segurança, privacidade e proteção de informações.
-
-**Fonte oficial:**
-
-https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm
-
-### Decreto-Lei nº 2.848/1940 — Código Penal Brasileiro
-
-Destacam-se:
-
-- **Artigo 154-A:** invasão de dispositivo informático.
-- **Artigo 171:** estelionato, incluindo disposições relacionadas à fraude eletrônica.
-
-**Fonte oficial:**
-
-https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm
-
-**Importante:** a finalidade educacional não autoriza automaticamente o acesso a sistemas, a coleta de credenciais ou o tratamento de dados pessoais.
-
----
-
-## 📋 9. Termo de responsabilidade e uso ético
-
-A utilização deste projeto deve respeitar os seguintes princípios:
-
-1. **Autorização:** realizar testes somente em sistemas próprios ou expressamente autorizados.
-2. **Privacidade:** respeitar os direitos e a proteção de dados pessoais.
-3. **Legalidade:** cumprir a legislação brasileira e as normas institucionais.
-4. **Ética:** não utilizar a ferramenta para fraudes ou obtenção indevida de informações.
-5. **Segurança:** manter as atividades restritas a ambientes controlados.
-6. **Responsabilidade:** documentar os procedimentos e prevenir impactos sobre terceiros.
-
-É proibida, no contexto educacional desta adaptação, a utilização para roubo de senhas, invasões, falsificação de identidade ou qualquer outra atividade ilícita.
-
----
-
-## 👨‍💻 10. Créditos e reconhecimento
-
-### Desenvolvedor original
-
-**KasRoudra**
-
-- **GitLab:** https://gitlab.com/KasRoudra
-- **GitHub:** https://github.com/KasRoudra
-- **PyPhisher:** https://gitlab.com/KasRoudra/PyPhisher
-- **MaxPhisher:** https://gitlab.com/KasRoudra/MaxPhisher
-
-### Reconhecimento de autoria
-
-Todos os direitos autorais e créditos de desenvolvimento pertencem aos respectivos autores.
-
-Esta adaptação possui finalidade exclusivamente acadêmica e educacional, não reivindicando autoria sobre o código-fonte original.
-
-As modificações e redistribuições devem respeitar a licença original e preservar os avisos de direitos autorais aplicáveis.
-
----
-
-## ⚠️ 11. Aviso legal
-
-**ESTE REPOSITÓRIO É DESTINADO EXCLUSIVAMENTE A FINS EDUCACIONAIS E DE PESQUISA EM SEGURANÇA DA INFORMAÇÃO.**
-
-O material tem como finalidade contribuir para o estudo de ameaças digitais, identificação de vulnerabilidades e desenvolvimento de estratégias de defesa cibernética.
-
-A disponibilização do código não representa autorização para invasões, fraudes eletrônicas, captura indevida de credenciais, violação de privacidade ou outras atividades ilícitas.
-
-A responsabilidade pela utilização do software cabe a quem realiza os respectivos atos, conforme a legislação aplicável.
-
-O mantenedor desta adaptação não reivindica a autoria do projeto original nem declara vínculo com seu desenvolvedor.
-
----
-
-<p align="center">
-  <strong>Segurança da Informação • Redes de Computadores • Cibersegurança • Educação Digital</strong>
-</p>
-
-<p align="center">
-  <em>Conhecer as ameaças digitais é essencial para desenvolver estratégias de prevenção e proteção.</em>
-</p>
+###
