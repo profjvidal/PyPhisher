@@ -1,143 +1,107 @@
-# <p align="center">PyPhisher</p>
+<h1 align="center">PyPhisher</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Versão-2.1.9-green?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Linguagem-Python-blue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Finalidade-Educacional-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Versão-2.1.9-green?style=for-the-badge" alt="Versão 2.1.9">
+  <img src="https://img.shields.io/badge/Linguagem-Python-blue?style=for-the-badge" alt="Python">
+  <img src="https://img.shields.io/badge/Finalidade-Educacional-orange?style=for-the-badge" alt="Educacional">
 </p>
-
 <p align="center">
-  <a href="https://gitlab.com/KasRoudra">
-    <img src="https://img.shields.io/badge/Autor-KasRoudra-purple?style=flat-square">
-  </a>
-  <img src="https://img.shields.io/badge/Código_Aberto-Sim-cyan?style=flat-square">
-  <img src="https://img.shields.io/badge/Origem-Bangladesh-green?style=flat-square">
+  <a href="https://gitlab.com/KasRoudra"><img src="https://img.shields.io/badge/Autor-KasRoudra-purple?style=flat-square" alt="Autor KasRoudra"></a>
+  <img src="https://img.shields.io/badge/Código_Aberto-Sim-cyan?style=flat-square" alt="Código aberto">
+  <img src="https://img.shields.io/badge/Origem-Bangladesh-green?style=flat-square" alt="Origem Bangladesh">
 </p>
 
 ---
 
 ## 📚 1. Descrição
 
-O **PyPhisher** é uma ferramenta de código aberto desenvolvida em Python para demonstrar o funcionamento de técnicas de phishing e engenharia social.
+O **PyPhisher** é uma ferramenta de código aberto desenvolvida em Python para demonstrar técnicas de phishing e engenharia social. Sua documentação descreve páginas de autenticação, servidores web, túneis de rede e mecanismos de registro de informações.
 
-O projeto apresenta recursos relacionados a páginas de autenticação, servidores web, tunelamento de conexões e análise de mecanismos de captura de informações.
-
-**Este repositório destina-se exclusivamente a fins estudantis, pesquisas acadêmicas, auditorias autorizadas e atividades educacionais de Segurança da Informação.**
-
-Seu principal objetivo educacional é contribuir para a compreensão das ameaças digitais e o desenvolvimento de estratégias de prevenção e proteção.
+**Esta adaptação destina-se exclusivamente a fins estudantis, pesquisas acadêmicas, auditorias autorizadas e atividades educacionais de Segurança da Informação.** O objetivo é compreender ameaças digitais e desenvolver estratégias de prevenção.
 
 > [!IMPORTANT]
-> **USO EXCLUSIVAMENTE EDUCACIONAL**
->
-> O estudo do projeto deve ocorrer em ambientes controlados e autorizados.
->
-> A utilização de páginas fraudulentas para obter credenciais ou informações pessoais sem autorização pode constituir atividade ilícita.
+> Use somente em ambientes controlados, com autorização expressa. A finalidade educacional não autoriza obter credenciais reais ou enganar terceiros.
 
 ### Continuidade do projeto
 
-O desenvolvedor original informou que o PyPhisher passou a integrar o projeto [MaxPhisher](https://gitlab.com/KasRoudra/MaxPhisher), no qual seriam disponibilizadas novas funcionalidades e correções.
+Segundo a documentação original, o desenvolvimento passou a integrar o projeto [MaxPhisher](https://gitlab.com/KasRoudra/MaxPhisher). A situação atual de manutenção deve ser conferida nos repositórios oficiais.
 
 ---
 
 ## 🎯 2. Objetivos educacionais
 
-- Compreender o funcionamento de ataques de phishing.
-- Identificar páginas falsas e tentativas de engenharia social.
+- Compreender ataques de phishing e engenharia social.
+- Identificar páginas falsas e tentativas de fraude.
 - Analisar códigos Python, PHP, HTML e JavaScript.
-- Estudar mecanismos de autenticação e proteção de credenciais.
-- Compreender o funcionamento de servidores web e túneis de rede.
-- Identificar riscos associados à exposição de informações pessoais.
-- Desenvolver estratégias de defesa contra fraudes digitais.
-- Aplicar conhecimentos de Redes de Computadores e Cibersegurança.
-- Incentivar o uso ético e responsável de ferramentas de segurança.
+- Estudar autenticação, proteção de credenciais e mecanismos OTP.
+- Compreender servidores web, endereçamento e túneis de rede.
+- Desenvolver estratégias de defesa e conscientização digital.
+- Aplicar princípios éticos e legais em segurança cibernética.
 
 ---
 
 ## ⚙️ 3. Características do projeto
 
-Entre os recursos descritos pelo desenvolvedor original estão:
+Conforme a documentação original, o projeto apresenta:
 
-- Compatibilidade com diferentes distribuições Linux.
-- Interface de execução pelo terminal.
-- Biblioteca de modelos de páginas web.
-- Suporte a parâmetros de execução.
-- Recursos de tunelamento.
-- Simulações de páginas de autenticação.
-- Suporte a modelos de autenticação OTP.
-- Configurações de redirecionamento.
-- Recursos de manipulação e pré-visualização de URLs.
-- Registro de informações de acesso.
-- Recursos de análise de erros.
-- Disponibilização por Git, Python e Docker.
+- Interface pelo terminal e suporte a parâmetros de execução.
+- Modelos de páginas web e simulações de autenticação.
+- Recursos de tunelamento e redirecionamento.
+- Modelos relacionados a autenticação OTP.
+- Manipulação e pré-visualização de URLs.
+- Registro de informações de acesso e análise de erros.
+- Distribuição por repositório Git, pacote Python e Docker.
 
 > [!WARNING]
-> Essas funcionalidades devem ser estudadas exclusivamente em ambientes controlados e autorizados. Não utilize páginas simuladas para coletar credenciais reais ou enganar terceiros.
+> Esses recursos devem ser estudados apenas em laboratórios próprios ou autorizados, sem coleta de senhas reais nem exposição de páginas enganosas ao público.
 
 ---
 
 ## 💻 4. Requisitos técnicos
 
-### Linguagem principal
+**Linguagem:** Python 3.
 
-- Python 3
+**Bibliotecas mencionadas:** `requests`, `rich`, `beautifulsoup4`.
 
-### Bibliotecas Python
+**Componentes:** Git, PHP, SSH e ambiente Linux ou máquina virtual. A documentação original menciona aproximadamente 900 MB de armazenamento.
 
-- `requests`
-- `rich`
-- `beautifulsoup4`
-
-### Outros componentes
-
-- Git
-- PHP
-- SSH
-- Ambiente Linux ou máquina virtual
-- Aproximadamente 900 MB de armazenamento, conforme a documentação original
-
-### Sistemas operacionais
-
-| Sistema | Compatibilidade informada |
+| Sistema | Compatibilidade informada originalmente |
 |---|---|
 | Linux | Excelente |
 | Android / Termux | Excelente |
 | macOS | Experimental |
 | iOS | Experimental |
-| Windows | Por máquina virtual ou Docker |
+| Windows | Via máquina virtual ou Docker |
 | BSD | Não testado |
 
-As informações de compatibilidade foram baseadas na documentação original e podem variar conforme a versão do projeto.
+A compatibilidade não foi verificada independentemente para versões atuais.
 
 ---
 
-## 🛠️ 5. Instalação e preparação do ambiente
+## 🛠️ 5. Instalação e execução em laboratório
 
-O PyPhisher foi desenvolvido em Python e possui suporte documentado para diferentes distribuições GNU/Linux e ambientes Termux.
+### 5.1. Instalar dependências
 
-### 5.1. Instalação das dependências
-
-Instale os componentes necessários conforme o sistema operacional utilizado.
-
-#### 🐧 Debian, Ubuntu, Kali Linux e Parrot OS
+**Debian, Ubuntu, Kali Linux e Parrot OS:**
 
 ```bash
 sudo apt update
 sudo apt install git python3 python3-pip php openssh-client -y
 ```
 
-#### 🐧 Arch Linux e Manjaro
+**Arch Linux e Manjaro:**
 
 ```bash
 sudo pacman -S git python python-pip php openssh --noconfirm
 ```
 
-#### 🐧 Fedora e distribuições baseadas em Red Hat
+**Fedora e distribuições Red Hat:**
 
 ```bash
 sudo dnf install git python3 python3-pip php openssh-clients -y
 ```
 
-#### 📱 Android — Termux
+**Android — Termux:**
 
 ```bash
 pkg update && pkg upgrade -y
@@ -145,11 +109,11 @@ pkg install git python php openssh -y
 ```
 
 > [!NOTE]
-> Os nomes dos pacotes podem variar conforme a distribuição Linux e a versão do sistema operacional.
+> Nomes de pacotes e dependências podem variar conforme o sistema e a versão.
 
-### 5.2. Clonagem do repositório
+### 5.2. Clonar o repositório
 
-**Repositório original:**
+**Projeto original:**
 
 ```bash
 git clone https://gitlab.com/KasRoudra/PyPhisher.git
@@ -161,230 +125,178 @@ git clone https://gitlab.com/KasRoudra/PyPhisher.git
 git clone https://github.com/profjvidal/PyPhisher.git
 ```
 
-Escolha apenas um dos repositórios.
+Escolha apenas um repositório.
 
-### 5.3. Acessar o diretório
+### 5.3. Acessar a pasta
 
 ```bash
 cd PyPhisher
-```
-
-### 5.4. Examinar os arquivos
-
-```bash
 ls -la
 ```
 
-### 5.5. Consultar as dependências
+### 5.4. Conferir as dependências
 
 ```bash
 cat files/requirements.txt
 ```
 
-### 5.6. Criar um ambiente virtual Python
-
-Recomenda-se utilizar um ambiente virtual para evitar conflitos com as bibliotecas do sistema.
+### 5.5. Criar ambiente virtual Python
 
 ```bash
 python3 -m venv .venv
-```
-
-Ative o ambiente:
-
-```bash
 source .venv/bin/activate
 ```
 
-Em sistemas Debian e Ubuntu, pode ser necessário instalar previamente o pacote `python3-venv`.
+No Debian e no Ubuntu pode ser necessário instalar `python3-venv`. A disponibilidade de `venv` no Termux pode variar.
 
-### 5.7. Instalar os módulos Python
+### 5.6. Instalar módulos Python
 
-Após revisar as dependências:
+Após inspecionar o arquivo de dependências:
 
 ```bash
 python3 -m pip install -r files/requirements.txt
 ```
 
-> [!TIP]
-> A utilização de um ambiente virtual dispensa normalmente o parâmetro `--break-system-packages`, evitando modificações desnecessárias no ambiente Python gerenciado pelo sistema operacional.
+O ambiente virtual é preferível à utilização de `--break-system-packages`, pois reduz o risco de alterar o Python gerenciado pelo sistema.
 
-### 5.8. Verificar a sintaxe do código-fonte
-
-Antes de executar programas obtidos de repositórios externos, recomenda-se analisar seus arquivos.
-
-O exemplo abaixo realiza uma verificação sintática do arquivo principal sem executá-lo:
+### 5.7. Verificar a sintaxe sem executar
 
 ```bash
 python3 - <<'PY'
 import ast
 from pathlib import Path
 
-arquivo = Path("pyphisher.py")
-
-ast.parse(arquivo.read_text(encoding="utf-8"))
-
-print("Análise sintática concluída com sucesso.")
+arquivo = Path('pyphisher.py')
+ast.parse(arquivo.read_text(encoding='utf-8'))
+print('Análise sintática concluída.')
 PY
 ```
 
-**Importante:** a verificação sintática não garante que o programa seja seguro. Ela apenas verifica se o arquivo pode ser interpretado sintaticamente como código Python.
+Essa verificação não garante a segurança do código.
 
-### 5.9. Instalação por Pip
+### 5.8. Executar a ferramenta
 
-A documentação original também apresenta a distribuição do projeto por meio do gerenciador de pacotes Pip.
+O comando convencional documentado para iniciar o programa é:
 
-Para consultar as versões disponíveis:
+```bash
+python3 pyphisher.py
+```
+
+> [!CAUTION]
+> A execução deve ocorrer somente em laboratório isolado e autorizado. Não configure páginas para enganar terceiros, capturar credenciais reais ou receber acessos públicos não autorizados.
+
+### 5.9. Obtenção direta do script
+
+A documentação original também apresenta uma alternativa que combina download e execução imediata. Para permitir a revisão do arquivo, faça o download separadamente:
+
+```bash
+wget https://gitlab.com/KasRoudra/PyPhisher/-/raw/main/pyphisher.py
+```
+
+Inspecione o arquivo antes de qualquer execução:
+
+```bash
+less pyphisher.py
+```
+
+Evite executar automaticamente arquivos recém-baixados sem verificar sua procedência, dependências e comportamento.
+
+### 5.10. Pip
+
+A documentação original menciona a distribuição pelo gerenciador Pip. Consulte primeiro as versões disponíveis:
 
 ```bash
 python3 -m pip index versions pyphisher
 ```
 
-Antes de instalar um pacote, verifique sua procedência, versão, dependências e licença.
+Antes de instalar, confirme a autoria, a licença e as dependências do pacote.
 
-### 5.10. Docker
+### 5.11. Docker
 
-O projeto original também menciona a imagem Docker:
-
-`kasroudra/pyphisher`
-
-Para verificar a disponibilidade do manifesto da imagem:
+A documentação original cita a imagem `kasroudra/pyphisher`. Para consultar seu manifesto, caso esteja disponível:
 
 ```bash
 docker manifest inspect kasroudra/pyphisher
 ```
 
-A utilização de contêineres deve observar as políticas de segurança do laboratório.
-
-### 5.11. Execução em laboratório
-
-O arquivo principal identificado na documentação original é:
-
-`pyphisher.py`
-
-O estudo deve priorizar a análise estática, o entendimento das dependências e a investigação dos mecanismos de autenticação e comunicação.
-
-A inicialização de funcionalidades capazes de reproduzir páginas fraudulentas ou coletar credenciais deve permanecer restrita a atividades especificamente autorizadas e supervisionadas.
-
-> [!CAUTION]
-> Não utilize o projeto para disponibilizar páginas fraudulentas publicamente ou obter credenciais de terceiros.
+A disponibilidade e a integridade da imagem devem ser verificadas antes de utilizá-la. Um contêiner não substitui o isolamento e as autorizações exigidas pelo laboratório.
 
 ---
 
 ## 🔐 6. Ambiente de laboratório
 
-Para atividades acadêmicas, recomenda-se:
-
-1. Utilizar máquinas virtuais isoladas.
-2. Trabalhar com páginas demonstrativas próprias.
-3. Utilizar exclusivamente usuários e senhas fictícios.
-4. Evitar exposição dos serviços à Internet pública.
-5. Não utilizar contas reais de terceiros.
-6. Registrar as autorizações necessárias.
-7. Analisar o tráfego de rede em ambiente controlado.
-8. Remover os dados de teste após as atividades.
-
-### Recomendações adicionais
-
-- Priorizar redes internas e ambientes sem acesso externo.
-- Manter registros das atividades acadêmicas.
-- Monitorar os serviços utilizados.
-- Evitar o armazenamento desnecessário de informações.
-- Respeitar as normas institucionais de segurança.
+1. Utilize máquinas virtuais e redes isoladas.
+2. Trabalhe com páginas demonstrativas próprias.
+3. Use apenas usuários, senhas e dados fictícios.
+4. Não exponha páginas simuladas à Internet pública.
+5. Não utilize contas reais de terceiros.
+6. Registre a autorização e o escopo das atividades.
+7. Analise o tráfego de rede em ambiente controlado.
+8. Elimine os dados de teste após as atividades.
 
 ---
 
 ## 🧪 7. Aplicações educacionais
 
-### Redes de Computadores
+**Redes de Computadores:** protocolos HTTP/HTTPS, IP, portas, servidores web e tunelamento.
 
-Estudo de protocolos HTTP/HTTPS, endereçamento IP, portas, servidores web e tunelamento.
+**Segurança da Informação:** autenticação, engenharia social, proteção de credenciais e prevenção de fraudes.
 
-### Segurança da Informação
+**Programação:** leitura e análise de códigos Python, PHP, HTML e JavaScript.
 
-Estudo de autenticação, proteção de credenciais, engenharia social e prevenção de fraudes.
+**Cibersegurança:** análise estática, identificação de comportamentos suspeitos e investigação de páginas fraudulentas.
 
-### Programação
-
-Análise e interpretação de códigos Python, PHP, HTML e JavaScript.
-
-### Cibersegurança
-
-Análise estática de software, identificação de comportamentos suspeitos e investigação de páginas fraudulentas.
-
-### Ética e legislação digital
-
-Discussão sobre privacidade, responsabilidade profissional, autorização para testes e limites legais das atividades de segurança cibernética.
+**Ética e legislação digital:** autorização, privacidade e responsabilidade profissional.
 
 ---
 
 ## ⚖️ 8. Legislação brasileira aplicável
 
-A utilização de ferramentas de segurança cibernética deve respeitar a legislação brasileira.
-
 ### Lei nº 12.737/2012 — Lei Carolina Dieckmann
 
-Introduziu dispositivos no Código Penal relacionados a delitos informáticos, incluindo o artigo 154-A.
+Introduziu disposições sobre delitos informáticos no Código Penal, incluindo o artigo 154-A, relativo à invasão de dispositivo informático.
 
-**Fonte oficial:**
-
-https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12737.htm
+[Fonte oficial](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12737.htm)
 
 ### Lei nº 14.155/2021
 
-Alterou dispositivos do Código Penal relacionados à invasão de dispositivo informático, furto e estelionato, incluindo situações envolvendo meios eletrônicos.
+Alterou dispositivos penais relativos à invasão de dispositivo informático, furto mediante fraude e estelionato eletrônico.
 
-**Fonte oficial:**
-
-https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14155.htm
+[Fonte oficial](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14155.htm)
 
 ### Lei nº 12.965/2014 — Marco Civil da Internet
 
 Estabelece princípios, garantias, direitos e deveres para o uso da Internet no Brasil.
 
-**Fonte oficial:**
+[Fonte oficial](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm)
 
-https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm
+### Lei nº 13.709/2018 — LGPD
 
-### Lei nº 13.709/2018 — Lei Geral de Proteção de Dados Pessoais (LGPD)
+Estabelece regras para o tratamento de dados pessoais, inclusive em meios digitais.
 
-Estabelece regras para o tratamento de dados pessoais, incluindo princípios de segurança, privacidade e proteção de informações.
+[Fonte oficial](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm)
 
-**Fonte oficial:**
+### Decreto-Lei nº 2.848/1940 — Código Penal
 
-https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm
+Dependendo das circunstâncias, podem ser relevantes o **artigo 154-A** (invasão de dispositivo informático) e o **artigo 171** (estelionato, incluindo fraude eletrônica). A tipificação depende dos fatos e dos requisitos legais.
 
-### Decreto-Lei nº 2.848/1940 — Código Penal Brasileiro
-
-Destacam-se:
-
-- **Artigo 154-A:** invasão de dispositivo informático.
-- **Artigo 171:** estelionato, incluindo disposições relacionadas à fraude eletrônica.
-
-**Fonte oficial:**
-
-https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm
+[Fonte oficial](https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm)
 
 > [!WARNING]
-> **RESPONSABILIDADE LEGAL**
->
-> A finalidade educacional não autoriza automaticamente o acesso a sistemas, a coleta de credenciais ou o tratamento de dados pessoais.
->
-> Dependendo das circunstâncias, atividades realizadas sem autorização podem gerar responsabilização civil e criminal.
+> A finalidade educacional não autoriza automaticamente acessar sistemas, coletar credenciais ou tratar dados pessoais. Condutas sem autorização podem gerar responsabilidade civil e criminal.
 
 ---
 
 ## 📋 9. Termo de responsabilidade e uso ético
 
-A utilização deste projeto deve respeitar os seguintes princípios:
+1. **Autorização:** realize testes somente em sistemas próprios ou expressamente autorizados.
+2. **Privacidade:** respeite os direitos dos titulares de dados pessoais.
+3. **Legalidade:** cumpra as leis e normas institucionais aplicáveis.
+4. **Ética:** não utilize o projeto para fraudes ou obtenção indevida de informações.
+5. **Segurança:** mantenha as atividades restritas a ambientes controlados.
+6. **Responsabilidade:** documente os procedimentos e evite impactos sobre terceiros.
 
-1. **Autorização:** realizar testes somente em sistemas próprios ou expressamente autorizados.
-2. **Privacidade:** respeitar os direitos e a proteção de dados pessoais.
-3. **Legalidade:** cumprir a legislação brasileira e as normas institucionais.
-4. **Ética:** não utilizar a ferramenta para fraudes ou obtenção indevida de informações.
-5. **Segurança:** manter as atividades restritas a ambientes controlados.
-6. **Responsabilidade:** documentar os procedimentos e prevenir impactos sobre terceiros.
-
-É proibida, no contexto educacional desta adaptação, a utilização para roubo de senhas, invasões, falsificação de identidade ou qualquer outra atividade ilícita.
+No contexto educacional desta adaptação, não se admite o uso para roubo de senhas, falsificação de identidade, invasões ou outras atividades ilícitas.
 
 ---
 
@@ -394,56 +306,43 @@ A utilização deste projeto deve respeitar os seguintes princípios:
 
 **KasRoudra**
 
-- **GitLab:** https://gitlab.com/KasRoudra
-- **GitHub:** https://github.com/KasRoudra
-- **PyPhisher:** https://gitlab.com/KasRoudra/PyPhisher
-- **MaxPhisher:** https://gitlab.com/KasRoudra/MaxPhisher
+- [GitLab](https://gitlab.com/KasRoudra)
+- [GitHub](https://github.com/KasRoudra)
+- [PyPhisher](https://gitlab.com/KasRoudra/PyPhisher)
+- [MaxPhisher](https://gitlab.com/KasRoudra/MaxPhisher)
 
 ### Repositório de referência
 
-**profjvidal/PyPhisher**
-
-https://github.com/profjvidal/PyPhisher
+[profjvidal/PyPhisher](https://github.com/profjvidal/PyPhisher)
 
 ### Reconhecimento de autoria
 
-Todos os direitos autorais e créditos de desenvolvimento pertencem aos respectivos autores.
+Os direitos autorais e créditos de desenvolvimento pertencem aos respectivos autores. Esta adaptação organiza a documentação em português brasileiro para fins acadêmicos, sem reivindicar autoria sobre o código-fonte original nem vínculo com seu desenvolvedor.
 
-Esta adaptação possui finalidade exclusivamente acadêmica e educacional, não reivindicando autoria sobre o código-fonte original.
-
-As modificações e redistribuições devem respeitar a licença original e preservar os avisos de direitos autorais aplicáveis.
+Modificações e redistribuições devem respeitar a licença original e os avisos de direitos autorais aplicáveis.
 
 ---
 
 ## ⚠️ 11. Aviso legal
 
-**ESTE REPOSITÓRIO É DESTINADO EXCLUSIVAMENTE A FINS EDUCACIONAIS E DE PESQUISA EM SEGURANÇA DA INFORMAÇÃO.**
+**ESTE REPOSITÓRIO DESTINA-SE EXCLUSIVAMENTE A FINS EDUCACIONAIS E DE PESQUISA EM SEGURANÇA DA INFORMAÇÃO.**
 
-O material tem como finalidade contribuir para o estudo de ameaças digitais, identificação de vulnerabilidades e desenvolvimento de estratégias de defesa cibernética.
+O material busca contribuir para a compreensão de ameaças digitais, identificação de vulnerabilidades e desenvolvimento de estratégias defensivas. A disponibilização do código não representa autorização para invasões, fraudes eletrônicas, captura indevida de credenciais ou violação de privacidade.
 
-A disponibilização do código não representa autorização para invasões, fraudes eletrônicas, captura indevida de credenciais, violação de privacidade ou outras atividades ilícitas.
-
-A responsabilidade pela utilização do software cabe a quem realiza os respectivos atos, conforme a legislação aplicável.
-
-O mantenedor desta adaptação não reivindica a autoria do projeto original nem declara vínculo com seu desenvolvedor.
+As responsabilidades decorrentes da utilização do software serão apuradas conforme a legislação aplicável. Este aviso não afasta responsabilidades legalmente atribuíveis a qualquer envolvido.
 
 ---
 
 ## 📚 12. Referências complementares
 
-- [CERT.br — Centro de Estudos, Resposta e Tratamento de Incidentes de Segurança no Brasil](https://www.cert.br/)
+- [CERT.br](https://www.cert.br/)
 - [Cartilha de Segurança para Internet](https://cartilha.cert.br/)
-- [OWASP — Open Worldwide Application Security Project](https://owasp.org/)
-- [NIC.br — Núcleo de Informação e Coordenação do Ponto BR](https://www.nic.br/)
-- [Python — Documentação oficial](https://docs.python.org/3/)
-- [Planalto — Legislação brasileira](https://www.planalto.gov.br/)
+- [OWASP](https://owasp.org/)
+- [NIC.br](https://www.nic.br/)
+- [Documentação oficial do Python](https://docs.python.org/3/)
+- [Legislação brasileira — Planalto](https://www.planalto.gov.br/)
 
 ---
 
-<p align="center">
-  <strong>Segurança da Informação • Redes de Computadores • Cibersegurança • Educação Digital</strong>
-</p>
-
-<p align="center">
-  <em>Conhecer as ameaças digitais é essencial para desenvolver estratégias de prevenção e proteção.</em>
-</p>
+<p align="center"><strong>Segurança da Informação • Redes de Computadores • Cibersegurança • Educação Digital</strong></p>
+<p align="center"><em>Conhecer as ameaças digitais é essencial para desenvolver estratégias de prevenção e proteção.</em></p>
